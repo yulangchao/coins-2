@@ -120,7 +120,7 @@ function updateHistory(code){
                     data = data.data;
                     var ohlc = [],
                     volume = [],
-                    dataLength = data.length,
+                    dataLength = chart.series[0].data.length,
                     // set the allowed units for data grouping
                     groupingUnits = [
                         [
@@ -135,7 +135,7 @@ function updateHistory(code){
                     i = 0;
                     if (chart.series[0].data[dataLength-1].x == data.slice(-1)[0][0] ){
                         chart.series[0].removePoint(dataLength-1, false, false);
-                        chart.series[0].removePoint(dataLength-1, false, false);
+                        chart.series[1].removePoint(dataLength-1, false, false);
                         chart.series[0].addPoint([                       
                                 data.slice(-1)[0][0], // the date
                                 data.slice(-1)[0][3], // open
