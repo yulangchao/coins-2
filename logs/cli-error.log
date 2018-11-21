@@ -1,0 +1,14 @@
+2018-01-29 06:08:13 Error: [RuntimeException] Unknown command `cake serve`. Run `cake --help` to get the list of valid commands. in E:\coins\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 177
+Stack Trace:
+#0 E:\coins\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'serve')
+#1 E:\coins\cms\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-01-29 06:08:26 Error: [RuntimeException] Unknown command `cake serve`. Run `cake --help` to get the list of valid commands. in E:\coins\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 177
+Stack Trace:
+#0 E:\coins\cms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'serve')
+#1 E:\coins\cms\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
